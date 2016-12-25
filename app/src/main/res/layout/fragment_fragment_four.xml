@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.satya.customdialogtask.FragmentFour">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="18dp"
+        android:hint="Enter Email Add"
+        android:textColorHint="#000"
+        android:gravity="center"
+        android:textColor="#00A86B"
+        android:textSize="20sp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:hint="Mention the Issue"
+android:background="@drawable/shape2"
+        android:textColorHint="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="18dp"
+        android:gravity="center"
+        android:textColor="#00A86B"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Write your Query/Message"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="18dp"
+        android:gravity="center"
+        android:background="@drawable/shape2"
+        android:textColorHint="#00A86B"
+        android:textColor="#00A86B"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Submit"
+        android:background="@drawable/shape1"
+        android:textColor="#00A86B"
+        android:id="@+id/sub1"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="3dp" />
+</LinearLayout>

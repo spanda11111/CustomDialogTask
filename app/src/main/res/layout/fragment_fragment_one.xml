@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.satya.customdialogtask.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/im2"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/gmail"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/im4"
+        android:background="@drawable/linkedin"
+        android:layout_alignTop="@+id/im3"
+        android:layout_alignLeft="@+id/im2"
+        android:layout_alignStart="@+id/im2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/im3"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/twitter"
+        android:layout_below="@+id/im1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/im1"
+        android:background="@drawable/facebook"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/im3"
+        android:layout_alignEnd="@+id/im3" />
+
+
+</RelativeLayout>
